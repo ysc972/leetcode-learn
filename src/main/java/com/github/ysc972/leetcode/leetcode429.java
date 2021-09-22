@@ -32,6 +32,8 @@ class Node {
     class Solution {
         public List<List<Integer>> levelOrder(Node root) {
             Queue<Node> queue = new LinkedList<>();
+            String str = "";
+            str = str + 123;
             List<List<Integer>> res = new ArrayList<>();
             if(root != null){
                 queue.add(root);

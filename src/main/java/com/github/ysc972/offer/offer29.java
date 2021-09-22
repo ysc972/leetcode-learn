@@ -21,6 +21,7 @@ public class offer29 {
             }
             Stack<Integer> stack = new Stack<>();
 
+
             int[] res = new int[m * n];
             int startX = 0;
             int startY = 0;
